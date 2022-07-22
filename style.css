@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+.productContainer{
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+  height: 100vh;
+  background: none;
+}
+
+.imageContainer img{
+  /* width: 50%;
+  height: 50%; */
+  /* height: 100vh; */
+  border-radius: 5% 0 0 5%;
+}
+
+.textContainer{
+  /* width: 50%;
+  height: 50%; */
+  /* height: 100vh; */
+  border-radius: 0 5% 5% 0;
+  background:red;
+}
+
+.prices{
+  display:flex;
+  
+}
+
+.button{
+  display:flex;
+  justify-content: center;
+}
+
+.button button{
+  background-color:hsl(158, 36%, 37%)
+}
